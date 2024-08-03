@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "out",
+    "ignore": [
+      "firebase.json",
+      "add.sh",
+      "**/.*"
+    ],
+    "rewrites": [
+      {
+        "source": "/effort",
+        "destination": "/effort.html"
+      }
+    ]
+  }
+}
