@@ -32,6 +32,6 @@ new_entry="        <div class=\"work-entry\"><span class=\"date\">$current_date:
 
 sed -i '' "/<div id=\"work-log\">/a\\
 $new_entry\\
-" out/index.html
+" out/effort.html
 
-echo "Work hours for $current_date added to out/index.html"
+echo "Work hours for $current_date added to out/effort.html"
